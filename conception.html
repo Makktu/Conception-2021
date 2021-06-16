@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="app-style.css" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="title">
+            <h1>Conception</h1>
+            <input type="checkbox" />Toggle Light/Dark Modes
+        </div>
+        <div class="container">
+            <div class="panel new-task active">
+                <h2>New Task</h2>
+                <form>
+                    <div class="form-control">
+                        <input type="text" required />
+                        <label>Name</label>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" required />
+                        <label>Telephone</label>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" />
+                        <label>From Location</label>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" />
+                        <label>To Location</label>
+                    </div>
+                    <div class="form-control">
+                        Task Details<br /><br />
+                        <textarea rows="4" cols="40"></textarea><br />
+                        <!-- <input type="textarea" required /> -->
+                        <label>Task Details</label>
+                    </div>
+                    <button class="btn">SAVE</button>
+                    <button class="btn clear">SAVE & CLEAR</button>
+                    <button class="btn print">PRINT</button>
+                    <button class="btn cancel">CANCEL</button>
+                </form>
+            </div>
+            <div class="panel all-task">ALL TASKS</div>
+            <div class="panel porters">PORTERS</div>
+            <div class="panel domestics">DOMESTICS</div>
+            <div class="panel catering">CATERING</div>
+            <div class="panel security">SECURITY</div>
+            <div class="panel maintenance">MAINTENANCE</div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

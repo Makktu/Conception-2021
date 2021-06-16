@@ -1,0 +1,43 @@
+body {
+    /* display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    */
+    height: 100vh;
+    overflow: hidden;
+    /* my dark styling */
+    background-color: rgb(19, 17, 17);
+    color: rgb(236, 222, 222);
+}
+/* 
+img {
+    margin: 0;
+} */
+
+a {
+    color: lightsalmon;
+    font-size: 1.5rem;
+}
+
+/* .index-page {
+    height: 100vh;
+    width: 100vh;
+    position: relative;
+} */
+
+.landing-image {
+    background: url("https://images.unsplash.com/photo-1506443432602-ac2fcd6f54e0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")
+        no-repeat center center fixed;
+
+    background-size: cover;
+}
+
+.landing-page h1 {
+    font-size: 3rem;
+}
+
+.landing-page h1 p {
+    z-index: 100;
+    position: absolute;
+}
